@@ -1,0 +1,28 @@
+# Virtual Environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Database
+db.sqlite3
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Static/media (optional for now)
+media/
+staticfiles/
+
+# Pytest cache
+.pytest_cache/
