@@ -18,3 +18,15 @@ class RegisterSerializer(serializers.ModelSerializer):
         )
 
         return user
+
+class RoleUpdateSerializer(
+    serializers.Serializer
+):
+
+    role = serializers.ChoiceField(
+        choices=[
+            "user",
+            "admin",
+            "super_admin"
+        ]
+    )
